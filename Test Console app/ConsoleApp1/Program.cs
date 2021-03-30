@@ -6,7 +6,11 @@ namespace ConsoleApp1
     {
         static void Main()
         {
-            Console.WriteLine("welcome to my console app xD!");
+            int a = 15;
+            int b = 6;
+            a %= b;
+
+            Console.WriteLine(a);
         }
     }
 }
