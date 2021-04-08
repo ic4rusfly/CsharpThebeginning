@@ -6,19 +6,17 @@ namespace xx
     {
         static void Main(string[] args)
         {
-            int a = 8;
+            int x = 1;
 
-            int b = ++a;
+            while (x++ < 5)
 
-            if (a > 5)
+            {
 
-                b -= 3;
+                if (x % 2 == 0)
+                    Console.Write(x);
+                    x += 2;
 
-            else
-
-                b = 9;
-
-            Console.WriteLine(b);
+            }
 
         }
     }
