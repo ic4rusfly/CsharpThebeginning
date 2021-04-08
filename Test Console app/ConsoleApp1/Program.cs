@@ -6,14 +6,19 @@ namespace xx
     {
         static void Main(string[] args)
         {
-            const double pi = 3.14;
-            double radius = 5;
+            int a = 8;
 
-            //your code goes here
-            radius = Double.Parse(Console.ReadLine());
-            double area = pi * (radius * radius);
+            int b = ++a;
 
-            Console.WriteLine(area);
+            if (a > 5)
+
+                b -= 3;
+
+            else
+
+                b = 9;
+
+            Console.WriteLine(b);
 
         }
     }
