@@ -6,9 +6,15 @@ namespace xx
     {
         static void Main(string[] args)
         {
-            for (int x = 0; x < 100; x += 2)
+            for (int x = 1; x < 8; x++)
             {
+
+                if (x > 5)
+
+                    break;
+
                 Console.WriteLine(x);
+
             }
         }
     }
