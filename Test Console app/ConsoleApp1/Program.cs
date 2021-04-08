@@ -11,6 +11,7 @@ namespace xx
             while (x++ < 5)
 
             {
+                Console.Write(x);
 
                 if (x % 2 == 0)
                     Console.Write(x);
