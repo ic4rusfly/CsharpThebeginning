@@ -1,16 +1,20 @@
 ﻿using System;
 
-namespace ConsoleApp1
+namespace xx
 {
     class Program
     {
-        static void Main()
+        static void Main(string[] args)
         {
-            int a = 15;
-            int b = 6;
-            a %= b;
+            const double pi = 3.14;
+            double radius = 5;
 
-            Console.WriteLine(a);
+            //your code goes here
+            radius = Double.Parse(Console.ReadLine());
+            double area = pi * (radius * radius);
+
+            Console.WriteLine(area);
+
         }
     }
 }
